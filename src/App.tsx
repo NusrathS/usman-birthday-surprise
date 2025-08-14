@@ -85,9 +85,9 @@ function App() {
             <div className="inline-flex items-center justify-center w-16 h-16 bg-red-500 rounded-full mb-4">
               <Heart className="text-white" size={32} />
             </div>
-            <h1 className="text-3xl font-bold text-white mb-2">It's a special day! 🎉</h1>
-            <p className="text-gray-300">Someone special sent this for you...</p>
-          </div>
+            <h1 className="text-3xl font-bold text-white mb-2">Alert! Another year older! 😂</h1>
+             <p className="text-gray-300">But still as awesome as ever...</p>
+             </div>
 
           <form onSubmit={handleBestieSubmit} className="space-y-6">
             <div>
@@ -130,8 +130,8 @@ function App() {
             <div className="inline-flex items-center justify-center w-16 h-16 bg-red-500 rounded-full mb-4 animate-pulse">
               <Calendar className="text-white" size={32} />
             </div>
-            <h1 className="text-3xl font-bold text-white mb-2">Perfect! Now...</h1>
-            <p className="text-gray-300">When were you born? 🎂</p>
+            <h1 className="text-3xl font-bold text-white mb-2">Awesome! One last thing...</h1>
+            <p className="text-gray-300">Tell me your birthday so we can celebrate! 🎉</p>
           </div>
 
           <form onSubmit={handleBirthdaySubmit} className="space-y-6">
@@ -207,7 +207,8 @@ function App() {
 
         <div className="bg-white/10 backdrop-blur-md p-8 rounded-3xl shadow-2xl border border-white/20 mb-8">
           <p className="text-xl md:text-2xl text-white mb-6 leading-relaxed">
-            Another year of amazing memories, incredible friendship, and countless laughs! 
+            Another year of amazing memories, incredible friendship, May this year bring you even more success, happiness, and reasons to smile.
+             Thanks for being not just a friend, but family. 
           </p>
           <p className="text-lg text-gray-300 mb-4">
             7+ years of friendship and still counting... 
@@ -242,6 +243,13 @@ function App() {
             <div className="aspect-square rounded-xl overflow-hidden border-2 border-white/20 hover:border-red-400 transition-all duration-300 transform hover:scale-105">
               <img 
                 src="/usman3.jpg" 
+                alt="Usman outdoor adventure" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden border-2 border-white/20 hover:border-red-400 transition-all duration-300 transform hover:scale-105">
+              <img 
+                src="/usman4.jpg" 
                 alt="Usman outdoor adventure" 
                 className="w-full h-full object-cover"
               />
