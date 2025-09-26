@@ -139,7 +139,7 @@ const BirthdaySurpriseApp: React.FC = () => {
     }
 
     if (birthdayDate !== '1998-09-27') {
-      showToast('Oops! That's not the right date 😅. Try again!');
+      showToast('Oops! That's not the right date. Try again!');
       setBirthdayDate('');
       return;
     }
