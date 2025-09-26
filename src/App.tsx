@@ -117,11 +117,11 @@ const BirthdaySurpriseApp: React.FC = () => {
   const handleNextStep = (step: number) => {
     if (step === 2) {
       if (!senderName.trim()) {
-        showToast('Please enter your name first! 😊');
+        showToast('Please enter your name first!');
         return;
       }
       if (senderName.toLowerCase() !== 'nusrath') {
-        showToast('Hey Hari, it\'s Nusrath! 😉 Please enter the correct name.');
+        showToast('Hey Hari, it\'s Nusrath! Please enter the correct name.');
         setSenderName('');
         return;
       }
@@ -134,7 +134,7 @@ const BirthdaySurpriseApp: React.FC = () => {
   // Reveal surprise
   const revealSurprise = () => {
     if (!birthdayDate) {
-      showToast('Please select a celebration date! 📅');
+      showToast('Please select a celebration date!');
       return;
     }
 
@@ -161,7 +161,7 @@ const BirthdaySurpriseApp: React.FC = () => {
     setClickCount(newClickCount);
     
     if (newClickCount === 10) {
-      showToast('🎊 You found a secret! Extra confetti! 🎊');
+      showToast('You found a secret! Extra confetti!');
       createEnhancedConfetti();
       setClickCount(0);
     }
